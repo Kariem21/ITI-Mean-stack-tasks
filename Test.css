@@ -1,0 +1,19 @@
+.divbtn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 20px;
+}
+
+.divbtn button{
+    width: 250px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Test.css">
+
+</head>
+<body>
+
+    <script>
+        // Step 1: Display an alert to welcome the user to the site
+        alert("Welcome to my site");
+
+        // Step 2: Use the prompt function to ask the user for their name
+        var userName = prompt("Please enter your name:");
+
+        // Step 3: Check if the user entered a name
+        if (userName !== null) {
+            // Step 4: Display a personalized welcome message on the page
+            var welcomeMessage = "Welcome, " + userName + "!";
+            document.body.innerHTML = "<h1>" + welcomeMessage + "</h1>";
+        } else {
+            // Step 5: Handle the case where the user clicked "Cancel" or closed the prompt
+            alert("You didn't enter your name. Please try again later.");
+        }
+    </script>
+
+<div class="divbtn">
+    <button type="button" id ="sumNums">Click To Calculate Nums</button>
+<button type="button" id ="CheckZero">Click To Check Zero</button>
+<button type="button" id ="checkFaculty">Click To Check Faculty Name</button>
+<button type="button" id ="calcArea">Click To Calculate The Area of traingle</button>
+<button type="button" id ="WelcomeMessage">Click To print welcome message</button>
+<button type="button" id ="MakeYourTableData">Click To print Table Content</button>
+</div>
+
+
+
+    <script src="./Task.js"></script>
+
+</body>
+</html>
